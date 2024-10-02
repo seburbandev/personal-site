@@ -1,0 +1,97 @@
+body {
+    background-color: #D5E1EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  #root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .badge-container {
+    max-width: 240px;
+    margin-inline: auto;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+  }
+
+  .qr-container {
+    border-radius: 7px;
+    background-color: #2C7DFA;
+    padding: 40px;
+    top: 10px;
+    left: 10px;
+    height: 140px;
+    width: 140px;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+  }
+  .qr-code {
+    position: relative;
+    z-index: 2;
+    display: block;
+    top: 5px;
+    left: 5px
+  }
+
+  .text {
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  h1 {
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: #1F314F
+  }
+
+  p {
+    font-family: "Outfit", sans-serif;
+    font-size: 12px;
+    color: #68778D;
+    line-height: 1.5;
+  }
+
+  .badge-description {
+    text-align: center;
+  }
+
+  .circle-top {
+    z-index: 1;
+    position: absolute;
+    top: -120px;
+    left: -100px;
+    width: 250px;
+    height: 250px;
+    margin-inline: auto;
+    border-radius: 50%;
+    background-color: #3685FF;
+  }
+
+  .circle-bottom {
+    z-index: 1;
+    position: absolute;
+    top: 150px;
+    left: 80px;
+    width: 270px;
+    height: 270px;
+    margin-inline: auto;
+    border-radius: 50%;
+    background-color: #3685FF;
+  }
